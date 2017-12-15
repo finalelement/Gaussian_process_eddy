@@ -1,4 +1,4 @@
-function K_y = gpr_K_matrix(b_vectors, theta )
+function K_y = gpr_K_matrix(b_vectors,b_vectors_prime, theta )
 %UNTITLED Summary of this function goes here
 %   Detailed explanation goes here
 % theta = [alpha, lambda, sigma]
